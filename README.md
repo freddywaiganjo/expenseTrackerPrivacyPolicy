@@ -5,20 +5,12 @@ Expense Tracker is an app that helps user to keep track of their expenses and co
 
 ## Information We Collect
 
-There are two basic type of information we get from the user:
+There one basic type of permission we request from the user:
 
 
 ```bash
-1.location
-2.sms
+1.sms
 ```
-
-## Location
-
-```python
-We use location permission to determine what payment methods to check for in a user phone. e.g MPESA for Kenya based user
-```
-
 ## SMS
 
 ```python
@@ -28,4 +20,4 @@ We use sms ONLY to analysis expenditure patterns of the user. to who money was s
 
 
 ## Contact us
-lexvent.investments@gmil.com
+lexvent.investments@gmil.com 
