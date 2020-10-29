@@ -10,8 +10,6 @@ Expense Tracker is an app that helps user to keep track of their expenses and co
 
 
 Expense tracker collects the following user information ONLY when user gives consent.
-```markdown
-Syntax highlighted code block
 
 ##### SMS
 User SMS that are related to payments e.g Bank payment messages and Mobile Money payment messages
