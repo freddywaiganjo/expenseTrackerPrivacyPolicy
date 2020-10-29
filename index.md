@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+## Welcome to Expense Tracker Privacy Policy 
 
-You can use the [editor on GitHub](https://github.com/freddywaiganjo/expenseTrackerPrivacyPolicy/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 1. Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Expense Tracker is an app that helps user to keep track of their expenses and consolidate them together based on the recipient. It helps user to know where expenditure is high inthe current month and user can evaluate their spending habbits.
 
-### Markdown
+### 2. Collecting Information
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 2.1 Type of Information we collect
 
+
+Expense tracker collects the following user information ONLY when user gives consent.
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+##### SMS
+User SMS that are related to payments e.g Bank payment messages and Mobile Money payment messages
 
-- Bulleted
-- List
+### 3. Usage of Information Collected
+We use sms to analyse the amount spent or recived by user. This helps calculate the expenditure over the month as well as the received amount and compare that with the budget set by the user. This is  the core user of the app. Without the sms we cannot compute the expenditure or income.
 
-1. Numbered
-2. List
+### 3. Permissions Required
+The following permissions are required to perform the core function of the application
 
-**Bold** and _Italic_ and `Code` text
+#### 3.1 RECEIVE_SMS
+App requires to receive One Time Password(OTP) so as to verify user mobile number that is our unique user identifier
+#### 3.2 READ_SMS
+App requires to automatically read the OTP received by user to authenticate
+#### 3.3 INTERNET
+App requires to make call to our OTP generator which cannot be done without internet
+App syncs the fetched messages so us to help compute the expenditure and do a comparison to filter our dupliate transactions every time user reinstalls app
+#### 3.4 ACCESS_NETWORK_STATE
+App only syncs the SMS once when user connects to the internet hence need for this permission
+#### 3.5 READ_EXTERNAL_STORAGE
+User can set customer profile picture. In this case app needs to fetch picture from user gallery with user consent
+#### 3.6 RECEIVE_BOOT_COMPLETED
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/freddywaiganjo/expenseTrackerPrivacyPolicy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+lexvent.investments@gmil.com 
+or
+drop us a comment on playstore
